@@ -8,6 +8,7 @@ export default function HomeView() {
      return (
           <div className={styles.aboutMe}>
                <img src={ProfessionalHeadershot} alt="Professional Header Shot" className={styles.profileImage} />
+               <div className={styles.intro}>
                <h1 className={styles.name}>Sarah Borgelt</h1>
                <div className={styles.description}>
                     <p>
@@ -27,6 +28,7 @@ export default function HomeView() {
                          contribute positively to any project I am a part of. If you are interested in
                          collaborating on a project or learning more about my work, please feel free to reach out!
                     </p>
+               </div>
                </div>
           </div>
      )

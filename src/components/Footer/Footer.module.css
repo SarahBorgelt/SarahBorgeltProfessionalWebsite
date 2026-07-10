@@ -4,3 +4,33 @@
      padding: 1rem;
      border-radius: 15px;
 }
+
+.footerHeading {
+     color: white;
+     text-align: center;
+     padding: 1rem;
+}
+
+.footerText {
+     color: white;
+     text-align: center;
+     font-size: 1rem;
+}
+
+.italics {
+     font-style: italic;
+}
+
+.contactButton {
+     background-color: #4f79bb;
+     color: white;
+     border: none;
+     padding: 10px 20px;
+     text-align: center;
+     font-weight: bold;
+     display: inline-block;
+     font-size: 16px;
+     margin: 1.5rem auto;
+     cursor: pointer;
+     border-radius: 12px;
+}

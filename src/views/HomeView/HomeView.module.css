@@ -8,8 +8,7 @@
      margin: 0 auto;
      align-items: start;
      grid-template-areas:
-          "profileImage name"
-          "profileImage description";
+          "profileImage intro";
 }
 
 .description {
@@ -32,6 +31,7 @@
      font-size: 3rem;
      letter-spacing: -0.05rem;
      text-transform: uppercase;
+     padding-bottom: 1rem;
 }
 
 .profileImage {
@@ -39,4 +39,8 @@
      border-radius: 15px;
      width: 100%;
      height: auto;
+}
+
+.intro {
+     grid-area: intro;
 }
