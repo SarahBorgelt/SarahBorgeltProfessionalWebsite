@@ -14,6 +14,34 @@ export default function MainNav() {
                     >
                          Home
                     </NavLink>
+                    <NavLink 
+                         to="/aboutme"
+                         className={({ isActive }) => 
+                         isActive ? styles.active : styles.link}
+                    >
+                         About Me
+                    </NavLink>
+                    <NavLink 
+                         to="/career"
+                         className={({ isActive }) => 
+                         isActive ? styles.active : styles.link}
+                    >
+                         Career
+                    </NavLink>
+                    <NavLink 
+                         to="/philanthropy"
+                         className={({ isActive }) => 
+                         isActive ? styles.active : styles.link}
+                    >
+                         Philanthropy
+                    </NavLink>
+                    <NavLink 
+                         to="/contact"
+                         className={({ isActive }) => 
+                         isActive ? styles.active : styles.link}
+                    >
+                         Contact
+                    </NavLink>
                </nav>
           </aside>
      )
