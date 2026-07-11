@@ -1,21 +1,20 @@
 .aboutMe{
+     box-sizing: border-box;
      width: 100%;
-     height: 100vh;
-     overflow-x: hidden;
-     display: grid;
-     grid-template-columns: 22em 1fr;
-     gap: 2rem;
-     margin: 0 auto;
-     align-items: start;
-     grid-template-areas:
-          "profileImage intro";
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 3rem;
+     padding: 2rem;
+     border: 0.0625rem solid white;
 }
 
 .description {
      grid-area: description;
-     font-size: 1.3rem;
-     border: 1px solid #4f79bb;
-     border-radius: 15px;
+     font-size: 1.25rem;
+     border: 0.0625rem solid #4f79bb;
+     border-radius: 1rem;
      padding: 1rem;
      background-color: #FFFFFF;
      color: #333333;
@@ -23,7 +22,6 @@
 }
 
 .name {
-     grid-area: name;
      font-size: 4rem;
      font-weight: bold;
      color: #ffffff;
@@ -35,12 +33,12 @@
 }
 
 .profileImage {
-     grid-area: profileImage;
-     border-radius: 15px;
-     width: 100%;
+     width: 25rem;
      height: auto;
+     object-fit: cover;
+     border-radius: 1rem;
 }
 
 .intro {
-     grid-area: intro;
+     width: 37.5rem;
 }

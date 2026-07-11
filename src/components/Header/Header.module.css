@@ -10,4 +10,12 @@
 .logo {
      max-width: 25rem;
      align-items: center;
+     border-radius: 50%;
+     width: 100%;
+     height: auto;
+     padding: 0.5rem;
+     border: 0.5px solid navy;
+     margin: 1rem;
+     background-color: white;
+     filter: drop-shadow(0 3px 8px white);
 }
