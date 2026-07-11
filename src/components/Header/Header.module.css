@@ -1,0 +1,13 @@
+.headerContainer {
+     display: flex;
+     flex-direction: column;
+     max-width: 12rem;
+     margin-left: 2rem;
+     margin-top: 1rem;
+     align-items: center;
+}
+
+.logo {
+     max-width: 25rem;
+     align-items: center;
+}

@@ -1,12 +1,12 @@
 import styles from './Header.module.css';
-import {useNavigate} from 'react-router-dom';
+import Logo from '../../assets/Logo.png';
 
 export default function Header() {
-     const navigate = useNavigate();
+
 
      return (
-          <p className={styles.text}>
-               Header Component
-          </p>
+          <>
+               <img className={styles.logo} src={Logo} alt="Logo" />
+          </>
      )
 }
