@@ -1,0 +1,10 @@
+.navbar {
+     position: sticky;
+     padding: 1.5rem;
+}
+
+.nav {
+     display: flex;
+     flex-direction: row;
+     width: fit-content;
+}

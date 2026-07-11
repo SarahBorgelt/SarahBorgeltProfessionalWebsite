@@ -4,7 +4,7 @@ import styles from './MainNav.module.css';
 export default function MainNav() {
 
      return (
-          <aside className={styles.sidebar}>
+          <aside className={styles.navbar}>
                <nav className={styles.nav}>
 
                     <NavLink 
