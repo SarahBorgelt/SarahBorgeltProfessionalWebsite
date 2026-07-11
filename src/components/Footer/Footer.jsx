@@ -1,6 +1,7 @@
 import styles from './Footer.module.css';
 import {useNavigate} from 'react-router-dom';
-import { FaLinkedin, FaFacebook, FaInstagram , FaGithub} from "react-icons/fa";
+import { FaLinkedin, FaFacebook, FaInstagram , FaGithub, FaMedium} from "react-icons/fa";
+import { SiDevdotto } from "react-icons/si";
 
 export default function Footer() {
      const navigate = useNavigate();
@@ -55,6 +56,22 @@ export default function Footer() {
                     aria-label="GitHub"
                >
                <FaGithub />
+               </a>
+               <a
+                    href="https://medium.com/@borgelt.sarah"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Medium"
+               >
+               <FaMedium />
+               </a>
+               <a
+                    href="https://dev.to/sarah_borgelt_cd2e3100391"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Dev.to"
+               >
+               <SiDevdotto />
                </a>
                </div>
                <p className={styles.copyright}>
