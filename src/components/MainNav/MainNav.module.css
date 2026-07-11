@@ -11,7 +11,8 @@
      background-color: navy;
      border-radius: 15px;
      padding: 1rem;
-     align-items: stetch;
+     align-items: stretch;
+     border: 0.5px solid white;
 }
 
 .link {
