@@ -1,4 +1,5 @@
 import styles from './CareerView.module.css';
+import ProfessionalHeadshot2 from '../../assets/ProfessionalHeadshot2.jpg'
 
 export default function CareerView() {
      const journey = [
@@ -100,6 +101,8 @@ export default function CareerView() {
                               simplify complex problems, enhance user experiences, and create systems that are efficient, 
                               scalable, and impactful.
                          </p>
+                         <br></br>
+                         <img src={ProfessionalHeadshot2} alt="An image of Sarah Borgelt" className={styles.careerHeadshot}/>
                     </div>
                </div>
           </>

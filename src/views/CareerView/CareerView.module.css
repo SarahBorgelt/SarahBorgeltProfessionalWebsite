@@ -6,6 +6,7 @@
      padding: 1.5rem;
      color: white;
      line-height: 1.6;
+     width: 60%;
 }
 
 .title {
@@ -24,18 +25,7 @@
      position: relative;
      max-width: 900px;
      margin: 2rem auto;
-}
-
-.timeline::before{
-     content: "";
-     position: absolute;
-     left: 50%;
-     top: 2.5rem;
-     bottom: 2.5rem;
-     width: 3px;
-     background: white;
-     transform: translateX(-50%);
-     z-index: 0;
+     width: 40%;
 }
 
 .timelineItem {
@@ -44,7 +34,6 @@
      position: relative;
      margin-bottom: 4rem;
 }
-
 
 .icon {
      position: absolute;
@@ -82,3 +71,27 @@
      flex-direction: row;
 }
 
+.timelineItem::after {
+     content: "";
+     position: absolute;
+     left: 50%;
+     top: 3rem;
+     bottom: -4rem;
+     width: 3px;
+     background: white;
+     transform: translateX(-50%);
+     z-index: 0;
+}
+
+.timelineItem:last-child::after {
+     display: none;
+}
+
+.careerHeadshot {
+     border-radius: 1rem;
+     width: 30rem;
+     height: auto;
+     display: block;
+     margin: 0 auto;
+     border: 0.0625rem solid white;
+}
