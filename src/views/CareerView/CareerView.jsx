@@ -1,9 +1,67 @@
 import styles from './CareerView.module.css';
 
 export default function CareerView() {
+     const journey = [
+     {
+          year: "2015",
+          icon: "🎓",
+          title: "Building a Business Foundation",
+          description:
+          "Sarah began her journey studying finance at the University of Findlay, developing an understanding of business operations, analytics, and decision-making."
+     },
+     {
+          year: "2019 - 2025",
+          icon: "📦",
+          title: "Learning Through Supply Chain",
+          description:
+          "Sarah spent six years supporting Fortune 500 organizations, improving processes, solving operational challenges, and learning how businesses use data to drive decisions. During this time, she also obtained her MBA in Finance and International Business through Texas A&M University - Corpus Christi."
+     },
+     {
+          year: "2025",
+          icon: "💡",
+          title: "A New Challenge",
+          description:
+          "After discovering programming, Sarah found a new way to approach problem-solving and began exploring software development."
+     },
+     {
+          year: "2026",
+          icon: "💻",
+          title: "Transition Into Technology",
+          description:
+          "Through dedicated learning and software development training, Sarah combined her business background with technical skills and moved into technology full-time."
+     },
+     {
+          year: "Today",
+          icon: "🗄️",
+          title: "Data Engineering",
+          description:
+          "Sarah builds and maintains ETL pipelines, improves data processes, and creates reliable solutions in an information-intensive industry."
+     }
+];
+
      return (
           <>
                <h1 className={styles.title}>Building bridges between business challenges and technical solutions</h1>
+               <section className={styles.timeline}>
+               {journey.map((step, index) => (
+                    <div 
+                         key={index}
+                         className={styles.timelineItem}
+                    >
+                         <div className={styles.icon}>
+                              {step.icon}
+                         </div>
+
+                         <div className={styles.card}>
+                              <p>{step.year}</p>
+                              <h2>{step.title}</h2>
+                              <span>
+                                   {step.description}
+                              </span>
+                         </div>
+                    </div>
+               ))}
+          </section>
                <div className={styles.careerDescription}>
                     <p>
                          Sarah Borgelt is a technology professional with a unique background spanning finance, 

@@ -19,3 +19,61 @@
      padding-bottom: 1rem;
      text-align: left;
 }
+
+.timeline {
+     position: relative;
+     max-width: 900px;
+     margin: auto;
+}
+
+.timeline::before {
+     content: "";
+     position: absolute;
+     left: 50%;
+     top: 2.5rem;
+     bottom: 2.5rem;
+     width: 3px;
+     background: #4f79bb;
+     transform: translateX(-50%);
+     z-index: 0;
+}
+
+.timelineItem {
+     display: flex;
+     justify-content: center;
+     position: relative;
+     margin-bottom: 4rem;
+}
+
+
+.icon {
+     position: absolute;
+     left: 50%;
+     transform: translateX(-50%);
+     background: navy;
+     border: 2px solid white;
+     border-radius: 50%;
+     padding: 1rem;
+     font-size: 2rem;
+     z-index: 1;
+}
+
+.card {
+     background: navy;
+     color:white;
+     border:1px solid white;
+     border-radius:1rem;
+     padding:1.5rem;
+     width:40%;
+}
+
+
+.timelineItem:nth-child(even) .card {
+     margin-left:50%;
+}
+
+
+.timelineItem:nth-child(odd) .card {
+     margin-right:50%;
+}
+
