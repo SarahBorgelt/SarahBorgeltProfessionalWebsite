@@ -73,6 +73,10 @@ export default function Footer() {
                >
                <SiDevdotto />
                </a>
+               <p>
+                    Connect with Sarah Borgelt on LinkedIn, GitHub, Facebook, Instagram, Medium, and Dev.to to explore her professional 
+                    experience, software development projects, and technical writing.
+               </p>
                </div>
                <p className={styles.copyright}>
                     © 2026 Sarah Borgelt. All rights reserved.
