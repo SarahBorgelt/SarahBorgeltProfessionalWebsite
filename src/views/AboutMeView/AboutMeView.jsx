@@ -6,7 +6,6 @@ import AirboatTour from '../../assets/PhotoReel/AirboatTour.jpg'
 import IceSkatingRockefeller from '../../assets/PhotoReel/IceSkatingRockefeller.jpg'
 import KayakingEverglades from '../../assets/PhotoReel/KayakingEverglades.jpg'
 import LavenderFarm from '../../assets/PhotoReel/LavenderFarm.jpg'
-import PigeonForge from '../../assets/PhotoReel/PigeonForge.jpg'
 import RidingLipps from '../../assets/PhotoReel/RidingLipps.jpg'
 import SegwayTours from '../../assets/PhotoReel/SegwayTours.jpg'
 import SwimmingWithSeal from '../../assets/PhotoReel/SwimmingWithSeal.jpg'
@@ -81,16 +80,6 @@ export default function AboutMeView() {
                                         className={styles.slideImage}/>
                                         <figcaption className={styles.figcaption}>
                                              Sarah enjoys discovering unique destinations and appreciating the small details that make each place special.
-                                        </figcaption>
-                                   </figure>
-                              </SwiperSlide>
-                              <SwiperSlide>
-                                   <figure>
-                                        <img src={PigeonForge}
-                                        alt="Sarah enjoys experiencing local attractions and embracing the culture and traditions of every destination she visits."
-                                        className={styles.slideImage}/>
-                                        <figcaption className={styles.figcaption}>
-                                             Sarah enjoys experiencing local attractions and embracing the culture and traditions of every destination she visits.
                                         </figcaption>
                                    </figure>
                               </SwiperSlide>
