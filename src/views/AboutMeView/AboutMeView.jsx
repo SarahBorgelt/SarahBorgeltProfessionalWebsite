@@ -1,7 +1,152 @@
 import styles from './AboutMeView.module.css';
+import { Swiper, SwiperSlide } from "swiper/react";
+
+//Photo import
+import AirboatTour from '../../assets/PhotoReel/AirboatTour.jpg'
+import IceSkatingRockefeller from '../../assets/PhotoReel/IceSkatingRockefeller.jpg'
+import KayakingEverglades from '../../assets/PhotoReel/KayakingEverglades.jpg'
+import LavenderFarm from '../../assets/PhotoReel/LavenderFarm.jpg'
+import PigeonForge from '../../assets/PhotoReel/PigeonForge.jpg'
+import RidingLipps from '../../assets/PhotoReel/RidingLipps.jpg'
+import SegwayTours from '../../assets/PhotoReel/SegwayTours.jpg'
+import SwimmingWithSeal from '../../assets/PhotoReel/SwimmingWithSeal.jpg'
+import TexasAandM from '../../assets/PhotoReel/TexasAandM.jpg'
+import WestVirginia from '../../assets/PhotoReel/WestVirginia.jpg'
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+// Import modules
+import { Navigation, Pagination, Keyboard, Autoplay } from "swiper/modules";
 
 export default function AboutMeView() {
      return (
-          <p>testabc</p>
+          <>
+               <h1 className={styles.title}>About Me</h1>
+               <p>testabc</p>
+               <Swiper
+                    modules={[Navigation, Pagination, Keyboard, Autoplay]}
+                    navigation
+                    pagination={{ clickable: true }}
+                    keyboard={{ enabled: true }}
+                    spaceBetween={30}
+                    slidesPerView={1}
+                    loop={true}
+                    autoplay={{
+                         delay: 5000,
+                         disableOnInteraction: false,
+                    }}
+               >
+                         <SwiperSlide>
+                              <figure>
+                                   <img
+                                        src={AirboatTour}
+                                        alt="Exploring new environments and embracing unique experiences, including an airboat tour through the Florida Everglades."
+                                        className={styles.slideImage}
+                                   />
+                                   <figcaption className={styles.caption}>
+                                        Exploring new environments and embracing unique experiences, including an airboat tour through the Florida Everglades.
+                                   </figcaption>
+                              </figure>
+                         </SwiperSlide>
+                         <SwiperSlide>
+                              <figure>
+                                   <img
+                                        src={IceSkatingRockefeller}
+                                        alt="A love for travel means always making time for iconic experiences — including ice skating at Rockefeller Center."
+                                        className={styles.slideImage}
+                                   />
+                                   <figcaption className={styles.caption}>
+                                        A love for travel means always making time for iconic experiences — including ice skating at Rockefeller Center.
+                                   </figcaption>
+                              </figure>
+                         </SwiperSlide>
+                         <SwiperSlide>
+                              <figure>
+                                   <img
+                                        src={KayakingEverglades}
+                                        alt="Spending time outdoors and connecting with nature is one of Sarah's favorite ways to recharge."
+                                        className={styles.slideImage}
+                                   />
+                                   <figcaption className={styles.caption}>
+                                        Spending time outdoors and connecting with nature is one of Sarah's favorite ways to recharge.
+                                   </figcaption>
+                              </figure>
+                         </SwiperSlide>
+                         <SwiperSlide>
+                              <figure>
+                                   <img src={LavenderFarm}
+                                   alt="Sarah Sarah enjoys discovering unique destinations and appreciating the small details that make each place special."
+                                   className={styles.slideImage}/>
+                                   <figcaption className={styles.figcaption}>
+                                        Sarah enjoys discovering unique destinations and appreciating the small details that make each place special.
+                                   </figcaption>
+                              </figure>
+                         </SwiperSlide>
+                         <SwiperSlide>
+                              <figure>
+                                   <img src={PigeonForge}
+                                   alt="Sarah enjoys experiencing local attractions and embracing the culture and traditions of every destination she visits."
+                                   className={styles.slideImage}/>
+                                   <figcaption className={styles.figcaption}>
+                                        Sarah enjoys experiencing local attractions and embracing the culture and traditions of every destination she visits.
+                                   </figcaption>
+                              </figure>
+                         </SwiperSlide>
+                         <SwiperSlide>
+                              <figure>
+                                   <img src={RidingLipps}
+                                   alt="A lifelong equestrian, Sarah values the discipline, dedication, and connection developed through riding."
+                                   className={styles.slideImage}/>
+                                   <figcaption className={styles.figcaption}>
+                                        A lifelong equestrian, Sarah values the discipline, dedication, and connection developed through riding.
+                                   </figcaption>
+                              </figure>
+                         </SwiperSlide>
+                         <SwiperSlide>
+                              <figure>
+                                   <img src={SegwayTours}
+                                   alt="Sarah enjoys sharing experiences with friends and embracing opportunities to learn something new."
+                                   className={styles.slideImage}/>
+                                   <figcaption className={styles.figcaption}>
+                                        Sarah enjoys sharing experiences with friends and embracing opportunities to learn something new.
+                                   </figcaption>
+                              </figure>
+                         </SwiperSlide>
+                         <SwiperSlide>
+                              <figure>
+                                   <img src={SwimmingWithSeal}
+                                   alt="Sarah believes in making the most of every opportunity, including unforgettable experiences like swimming with a seal in Miami."
+                                   className={styles.slideImage}/>
+                                   <figcaption className={styles.figcaption}>
+                                        Sarah believes in making the most of every opportunity, including unforgettable experiences like swimming with a seal in Miami.
+                                   </figcaption>
+                              </figure>
+                         </SwiperSlide>
+                         <SwiperSlide>
+                              <figure>
+                                   <img src={TexasAandM}
+                                   alt="A proud 2023 Texas A&M University graduate, Sarah values lifelong learning and continued growth."
+                                   className={styles.slideImage}/>
+                                   <figcaption className={styles.figcaption}>
+                                        A proud 2023 Texas A&M University graduate, Sarah values lifelong learning and continued growth.
+                                   </figcaption>
+                              </figure>
+                         </SwiperSlide>
+                         <SwiperSlide>
+                              <figure>
+                                   <img src={WestVirginia}
+                                   alt="Traveling allows Sarah to experience new communities, appreciate different perspectives, and continue learning beyond the workplace."
+                                   className={styles.slideImage}
+                                   />
+                                   <figcaption className={styles.figcaption}>
+                                        Traveling allows Sarah to experience new communities, appreciate different perspectives, and continue learning beyond the workplace.
+                                   </figcaption>
+                              </figure>
+                         </SwiperSlide>
+                    </Swiper>
+          </>
      )
 }
