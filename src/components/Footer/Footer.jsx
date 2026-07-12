@@ -23,60 +23,62 @@ export default function Footer() {
                          Contact Me
                     </button>
                </div>
-               <div className={styles.socialLinks}>
-               <a
-                    href="https://www.linkedin.com/in/sarahborgelt/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="LinkedIn"
-               >
-                    <FaLinkedin />
-               </a>
-               <a
-                    href="https://www.facebook.com/sarah.borgelt.5/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Facebook"
-               >
-               <FaFacebook />
-               </a>
+               <div className={styles.contacticonsectionandcta}>
+                    <div className={styles.socialLinks}>
+                         <a
+                              href="https://www.linkedin.com/in/sarahborgelt/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              aria-label="LinkedIn"
+                         >
+                              <FaLinkedin />
+                         </a>
+                         <a
+                              href="https://www.facebook.com/sarah.borgelt.5/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              aria-label="Facebook"
+                         >
+                         <FaFacebook />
+                         </a>
 
-               <a
-                    href="https://www.instagram.com/borgelts97/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Instagram"
-               >
-               <FaInstagram />
-               </a>
-               <a
-                    href="https://www.github.com/sarahborgelt/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="GitHub"
-               >
-               <FaGithub />
-               </a>
-               <a
-                    href="https://medium.com/@borgelt.sarah"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Medium"
-               >
-               <FaMedium />
-               </a>
-               <a
-                    href="https://dev.to/sarah_borgelt_cd2e3100391"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Dev.to"
-               >
-               <SiDevdotto />
-               </a>
-               <p>
-                    Connect with Sarah Borgelt on LinkedIn, GitHub, Facebook, Instagram, Medium, and Dev.to to explore her professional 
-                    experience, software development projects, and technical writing.
-               </p>
+                         <a
+                              href="https://www.instagram.com/borgelts97/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              aria-label="Instagram"
+                         >
+                         <FaInstagram />
+                         </a>
+                         <a
+                              href="https://www.github.com/sarahborgelt/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              aria-label="GitHub"
+                         >
+                         <FaGithub />
+                         </a>
+                         <a
+                              href="https://medium.com/@borgelt.sarah"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              aria-label="Medium"
+                         >
+                         <FaMedium />
+                         </a>
+                         <a
+                              href="https://dev.to/sarah_borgelt_cd2e3100391"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              aria-label="Dev.to"
+                         >
+                         <SiDevdotto />
+                         </a>
+                    </div>
+                    <p className={`${styles.footerText} ${styles.italics} ${styles.socialmediainfo}`}>
+                         Connect with Sarah Borgelt on LinkedIn, GitHub, Facebook, Instagram, Medium, and Dev.to to explore her professional 
+                         experience, software development projects, and technical writing.
+                    </p>
                </div>
                <p className={styles.copyright}>
                     © 2026 Sarah Borgelt. All rights reserved.
