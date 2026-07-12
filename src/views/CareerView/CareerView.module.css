@@ -23,17 +23,17 @@
 .timeline {
      position: relative;
      max-width: 900px;
-     margin: auto;
+     margin: 2rem auto;
 }
 
-.timeline::before {
+.timeline::before{
      content: "";
      position: absolute;
      left: 50%;
      top: 2.5rem;
      bottom: 2.5rem;
      width: 3px;
-     background: #4f79bb;
+     background: white;
      transform: translateX(-50%);
      z-index: 0;
 }
@@ -52,7 +52,7 @@
      transform: translateX(-50%);
      background: navy;
      border: 2px solid white;
-     border-radius: 50%;
+     border-radius: 40%;
      padding: 1rem;
      font-size: 2rem;
      z-index: 1;
@@ -64,7 +64,7 @@
      border:1px solid white;
      border-radius:1rem;
      padding:1.5rem;
-     width:40%;
+     width:30%;
 }
 
 
@@ -75,5 +75,10 @@
 
 .timelineItem:nth-child(odd) .card {
      margin-right:50%;
+}
+
+.careerPageLayout {
+     display: flex;
+     flex-direction: row;
 }
 
