@@ -27,11 +27,11 @@ export default function PhilanthropyView() {
                     />
 
                     <meta property="og:type" content="website" />
-                    <meta property="og:url" content="https://www.sarahborgelt.com/philanthropy" />
-                    <meta property="og:image" content="https://www.sarahborgelt.com/ProfessionalHeadshot" />
+                    <meta property="og:url" content="https://sarahborgelt.com/philanthropy" />
+                    <meta property="og:image" content="https://sarahborgelt.com/ProfessionalHeadshot" />
                     <link
                          rel="canonical"
-                         href="https://www.sarahborgelt.com/philanthropy"
+                         href="https://sarahborgelt.com/philanthropy"
                     />
           </Helmet>
           <div className={styles.philanthropy}>

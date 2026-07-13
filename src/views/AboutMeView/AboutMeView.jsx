@@ -46,11 +46,11 @@ export default function AboutMeView() {
                />
 
                <meta property="og:type" content="website" />
-               <meta property="og:url" content="https://www.sarahborgelt.com/" />
-               <meta property="og:image" content="https://www.sarahborgelt.com/ProfessionalHeadshot" />
+               <meta property="og:url" content="https://sarahborgelt.com/" />
+               <meta property="og:image" content="https://sarahborgelt.com/ProfessionalHeadshot" />
                <link
                     rel="canonical"
-                    href="https://www.sarahborgelt.com/aboutme"
+                    href="https://sarahborgelt.com/aboutme"
                />
           </Helmet>
                <div className={styles.slideshowAndDescription}>

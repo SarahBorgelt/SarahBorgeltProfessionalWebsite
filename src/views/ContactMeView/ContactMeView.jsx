@@ -65,11 +65,11 @@ export default function ContactMeView() {
                          />
 
                          <meta property="og:type" content="website" />
-                         <meta property="og:url" content="https://www.sarahborgelt.com/contactme" />
-                         <meta property="og:image" content="https://www.sarahborgelt.com/ProfessionalHeadshot" />
+                         <meta property="og:url" content="https://sarahborgelt.com/contactme" />
+                         <meta property="og:image" content="https://sarahborgelt.com/ProfessionalHeadshot" />
                          <link
                               rel="canonical"
-                              href="https://www.sarahborgelt.com/contact"
+                              href="https://sarahborgelt.com/contact"
                          />
                     </Helmet>
                <h1 className={styles.title}>Contact Me</h1>

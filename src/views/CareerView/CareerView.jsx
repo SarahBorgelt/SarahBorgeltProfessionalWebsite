@@ -64,11 +64,11 @@ export default function CareerView() {
                     />
 
                     <meta property="og:type" content="website" />
-                    <meta property="og:url" content="https://www.sarahborgelt.com/career" />
-                    <meta property="og:image" content="https://www.sarahborgelt.com/ProfessionalHeadshot" />
+                    <meta property="og:url" content="https://sarahborgelt.com/career" />
+                    <meta property="og:image" content="https://sarahborgelt.com/ProfessionalHeadshot" />
                     <link
                          rel="canonical"
-                         href="https://www.sarahborgelt.com/career"
+                         href="https://sarahborgelt.com/career"
                     />
                </Helmet>
                <h1 className={styles.title}>Building bridges between business challenges and technical solutions</h1>

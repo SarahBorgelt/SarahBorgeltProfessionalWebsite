@@ -29,23 +29,23 @@ export default function HomeView() {
 
                     <meta
                          property="og:url"
-                         content="https://www.sarahborgelt.com/"
+                         content="https://sarahborgelt.com/"
                     />
-                    <meta property="og:image" content="https://www.sarahborgelt.com/ProfessionalHeadshot" />
+                    <meta property="og:image" content="https://sarahborgelt.com/ProfessionalHeadshot" />
                     <link
                          rel="canonical"
-                         href="https://www.sarahborgelt.com/"
+                         href="https://sarahborgelt.com/"
                     />
                     <script type="application/ld+json">
                          {JSON.stringify({
                               "@context": "https://schema.org",
                               "@type": "Person",
                               "name": "Sarah Borgelt",
-                              "url": "https://www.sarahborgelt.com", // replace with purchased domain if different
+                              "url": "https://sarahborgelt.com", // replace with purchased domain if different
                               "jobTitle": "Software Engineer & Data Engineer",
                               "description":
                                    "Software Engineer and Data Engineer specializing in Java, JavaScript, React, SQL, ETL pipelines, HTML, CSS, and modern web development.",
-                              "image": "https://drive.google.com/file/d/1GxaY2di_c43G7r1nCseijHWBp3zI1Tee/view?usp=drive_link", 
+                              "image": "https://sarahborgelt.com/ProfessionalHeadshot", 
                               "sameAs": [
                                    "https://about.me/sarahborgelt",
                                    "https://www.crunchbase.com/person/sarah-borgelt-f843",
