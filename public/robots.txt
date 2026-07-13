@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.sarahborgelt.com/sitemap.xml
+Sitemap: https://sarahborgelt.com/sitemap.xml
