@@ -8,7 +8,7 @@ export default function HomeView() {
           <>
           <Helmet>
                     <title>
-                         Sarah Borgelt | Software Engineer & Data Engineer
+                         Sarah Borgelt | Software Engineer and Data Engineer
                     </title>
                     <meta
                          name="description"

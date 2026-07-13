@@ -7,6 +7,7 @@ import CareerView from './views/CareerView/CareerView';
 import PhilanthropyView from './views/PhilanthropyView/PhilanthropyView';
 import ContactMeView from './views/ContactMeView/ContactMeView';
 import Header from './components/Header/Header';
+import NotFound from './views/NotFoundView/NotFoundView';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
                 <Route path="/career" element={<CareerView/>} />
                 <Route path="/philanthropy" element={<PhilanthropyView/>} />
                 <Route path="/contact" element={<ContactMeView/>} />
+                <Route path="*" element={<NotFound />} />
               </Routes>
             </main>
             <footer id = "app-footer">

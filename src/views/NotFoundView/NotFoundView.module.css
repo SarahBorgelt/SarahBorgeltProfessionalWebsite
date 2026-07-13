@@ -1,0 +1,17 @@
+.NotFoundPage {
+     text-align: center;
+}
+
+.button {
+     background-color: navy;
+     color: white;
+     padding: 1rem;
+     margin: 1rem;
+     text-decoration: none;
+}
+
+.button:hover {
+     color: navy;
+     font-weight: bold;
+     background-color: white;
+}
