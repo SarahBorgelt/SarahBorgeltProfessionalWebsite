@@ -50,7 +50,25 @@ export default function CareerView() {
 
                     <meta
                          name="description"
-                         content="Explore Sarah Borgelt's career journey from finance and supply chain operations into technology, software development, and data engineering."
+                         content="Explore Sarah Borgelt's career journey from finance and supply chain operations to software development and data engineering."
+                    />
+
+                    <meta
+                         property="og:title"
+                         content="Career Journey | Sarah Borgelt"
+                    />
+
+                    <meta
+                         property="og:description"
+                         content="Discover how Sarah Borgelt combined business expertise with technology to build a career in software and data engineering."
+                    />
+
+                    <meta property="og:type" content="website" />
+                    <meta property="og:url" content="https://www.sarahborgelt.com/career" />
+                    <meta property="og:image" content="https://www.sarahborgelt.com/ProfessionalHeadshot" />
+                    <link
+                         rel="canonical"
+                         href="https://www.sarahborgelt.com/career"
                     />
                </Helmet>
                <h1 className={styles.title}>Building bridges between business challenges and technical solutions</h1>

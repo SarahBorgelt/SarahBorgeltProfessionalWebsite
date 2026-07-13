@@ -11,10 +11,27 @@ export default function PhilanthropyView() {
                <title>
                     Sarah Borgelt & Philanthropy | Giving Back to the Community
                </title>
-          
-               <meta
-                    name="description"
-                    content="Sarah Borgelt is a philanthropist who is passionate about giving back"
+                    <meta
+                         name="description"
+                         content="Learn about Sarah Borgelt's commitment to community involvement, volunteer work, and giving back through philanthropy."
+                    />
+
+                    <meta
+                         property="og:title"
+                         content="Philanthropy | Sarah Borgelt"
+                    />
+
+                    <meta
+                         property="og:description"
+                         content="Explore the charitable organizations and community initiatives that Sarah Borgelt supports."
+                    />
+
+                    <meta property="og:type" content="website" />
+                    <meta property="og:url" content="https://www.sarahborgelt.com/philanthropy" />
+                    <meta property="og:image" content="https://www.sarahborgelt.com/ProfessionalHeadshot" />
+                    <link
+                         rel="canonical"
+                         href="https://www.sarahborgelt.com/philanthropy"
                     />
           </Helmet>
           <div className={styles.philanthropy}>

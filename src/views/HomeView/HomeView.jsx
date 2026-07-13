@@ -7,13 +7,67 @@ export default function HomeView() {
      return (
           <>
           <Helmet>
-               <title>
-                    Sarah Borgelt | Software Engineer & Data Engineer
-               </title>
-               <meta
-                    name="description"
-                    content="Sarah Borgelt is a Software Engineer who specializes in Java, JavaScript, SQL, and React."
-               />
+                    <title>
+                         Sarah Borgelt | Software Engineer & Data Engineer
+                    </title>
+                    <meta
+                         name="description"
+                         content="Sarah Borgelt is a Software Engineer who specializes in Java, JavaScript, SQL, and React."
+                    />
+                    <meta
+                    property="og:title"
+                    content="Sarah Borgelt | Data Engineer | Software Engineer"
+                    />
+
+                    <meta
+                         property="og:description"
+                         content="Connect with Sarah Borgelt to discuss projects, opportunities, or collaborations in software and data engineering."
+                    />
+
+
+                    <meta property="og:type" content="website" />
+
+                    <meta
+                         property="og:url"
+                         content="https://www.sarahborgelt.com/"
+                    />
+                    <meta property="og:image" content="https://www.sarahborgelt.com/ProfessionalHeadshot" />
+                    <link
+                         rel="canonical"
+                         href="https://www.sarahborgelt.com/"
+                    />
+                    <script type="application/ld+json">
+                         {JSON.stringify({
+                              "@context": "https://schema.org",
+                              "@type": "Person",
+                              "name": "Sarah Borgelt",
+                              "url": "https://www.sarahborgelt.com", // replace with purchased domain if different
+                              "jobTitle": "Software Engineer & Data Engineer",
+                              "description":
+                                   "Software Engineer and Data Engineer specializing in Java, JavaScript, React, SQL, ETL pipelines, HTML, CSS, and modern web development.",
+                              "image": "https://drive.google.com/file/d/1GxaY2di_c43G7r1nCseijHWBp3zI1Tee/view?usp=drive_link", 
+                              "sameAs": [
+                                   "https://about.me/sarahborgelt",
+                                   "https://www.crunchbase.com/person/sarah-borgelt-f843",
+                                   "https://www.f6s.com/member/sarah-borgelt#about",
+                                   "https://linktr.ee/sarahborgelt",
+                                   "https://medium.com/@borgelt.sarah",
+                                   "https://github.com/SarahBorgelt?tab=repositories",
+                                   "https://www.instagram.com/borgelts97/",
+                                   "https://www.linkedin.com/in/sarahborgelt",
+                                   "https://www.pinterest.com/sarahn0297",
+                                   "https://www.youtube.com/@sarahborgelt8600",
+                                   "https://www.facebook.com/sarah.borgelt.5/",
+                                   "https://lnk.bio/sarahborgelt",
+                                   "https://penwellfuneralhome.com/obituaries/rhonda-k-steele-borgelt/",
+                                   "https://pubmed.ncbi.nlm.nih.gov/35988298/",
+                                   "https://www.legacy.com/us/obituaries/sdgnewsgroup/name/rhonda-borgelt-obituary?id=57393902",
+                                   "https://www.flickr.com/photos/164237504@N07/",
+                                   "https://penwellfuneralhome.com/obituaries/james-b-borgelt/",
+                                   "https://dev.to/sarah_borgelt_cd2e3100391"
+                              ]
+                         })}
+                    </script>
           </Helmet>
           <div className={styles.aboutMe}>
                <img src={ProfessionalHeadershot} alt="Professional Header Shot" className={styles.profileImage} />

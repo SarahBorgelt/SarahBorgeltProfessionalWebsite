@@ -53,6 +53,24 @@ export default function ContactMeView() {
                               name="description"
                               content="Get in touch with Sarah Borgelt regarding technology projects, data engineering, software development, and professional opportunities."
                          />
+
+                         <meta
+                              property="og:title"
+                              content="Contact Me | Sarah Borgelt"
+                         />
+
+                         <meta
+                              property="og:description"
+                              content="Get in touch with Sarah Borgelt about various technology projects, software development, data engineering, and professional opportunities"
+                         />
+
+                         <meta property="og:type" content="website" />
+                         <meta property="og:url" content="https://www.sarahborgelt.com/contactme" />
+                         <meta property="og:image" content="https://www.sarahborgelt.com/ProfessionalHeadshot" />
+                         <link
+                              rel="canonical"
+                              href="https://www.sarahborgelt.com/contact"
+                         />
                     </Helmet>
                <h1 className={styles.title}>Contact Me</h1>
                <form ref={form} onSubmit={sendEmail} className={styles.contactMeForm}>

@@ -29,11 +29,30 @@ export default function AboutMeView() {
                     About Sarah Borgelt | Software Engineer & Data Engineer
                </title>
 
+
                <meta
                     name="description"
-                    content="Get in touch with Sarah Borgelt regarding technology projects, data engineering, software development, and professional opportunities."
+                    content="Portfolio of Sarah Borgelt, a Data Engineer and Software Engineer specializing in Java, React, SQL, ETL pipelines, and modern web development."
                />
-               </Helmet>
+
+               <meta
+                    property="og:title"
+                    content="Sarah Borgelt | Software Engineer | Data Engineer"
+               />
+
+               <meta
+                    property="og:description"
+                    content="Learn about Sarah Borgelt's background, technical skills, and experience in software development and data engineering."
+               />
+
+               <meta property="og:type" content="website" />
+               <meta property="og:url" content="https://www.sarahborgelt.com/" />
+               <meta property="og:image" content="https://www.sarahborgelt.com/ProfessionalHeadshot" />
+               <link
+                    rel="canonical"
+                    href="https://www.sarahborgelt.com/aboutme"
+               />
+          </Helmet>
                <div className={styles.slideshowAndDescription}>
                     <Swiper
                          modules={[Navigation, Pagination, Keyboard, Autoplay]}
