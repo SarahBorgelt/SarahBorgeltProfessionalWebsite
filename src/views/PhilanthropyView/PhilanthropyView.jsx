@@ -2,9 +2,21 @@
 // This page will be updated as I continue to do more philanthropic work.  
 import styles from './PhilanthropyView.module.css';
 import Penne from '../../assets/Penne.jpg';
+import { Helmet } from "react-helmet-async";
 
 export default function PhilanthropyView() {
      return (
+          <>
+          <Helmet>
+               <title>
+                    Sarah Borgelt & Philanthropy | Giving Back to the Community
+               </title>
+          
+               <meta
+                    name="description"
+                    content="Sarah Borgelt is a philanthropist who is passionate about giving back"
+                    />
+          </Helmet>
           <div className={styles.philanthropy}>
                <figure className={styles.figure}>
                     <img src={Penne} alt="Penne" className={styles.penneImage} />
@@ -74,5 +86,6 @@ export default function PhilanthropyView() {
                     <br></br>
                </div>
           </div>
+          </>
      )
 }

@@ -1,5 +1,6 @@
 import styles from './CareerView.module.css';
 import ProfessionalHeadshot2 from '../../assets/ProfessionalHeadshot2.jpg'
+import { Helmet } from "react-helmet-async";
 
 export default function CareerView() {
      const journey = [
@@ -42,6 +43,16 @@ export default function CareerView() {
 
      return (
           <>
+               <Helmet>
+                    <title>
+                         Sarah Borgelt | Career Journey & Professional Experience
+                    </title>
+
+                    <meta
+                         name="description"
+                         content="Explore Sarah Borgelt's career journey from finance and supply chain operations into technology, software development, and data engineering."
+                    />
+               </Helmet>
                <h1 className={styles.title}>Building bridges between business challenges and technical solutions</h1>
                <div className={styles.careerPageLayout}>
                     <section className={styles.timeline}>

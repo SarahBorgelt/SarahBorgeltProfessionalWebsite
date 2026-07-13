@@ -1,6 +1,7 @@
 import styles from './ContactMeView.module.css';
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
+import { Helmet } from "react-helmet-async";
 
 export default function ContactMeView() {
      const form = useRef();
@@ -43,6 +44,16 @@ export default function ContactMeView() {
           };
           return (
                <>
+                    <Helmet>
+                         <title>
+                              Contact Sarah Borgelt | Software Engineer & Data Engineer
+                         </title>
+
+                         <meta
+                              name="description"
+                              content="Get in touch with Sarah Borgelt regarding technology projects, data engineering, software development, and professional opportunities."
+                         />
+                    </Helmet>
                <h1 className={styles.title}>Contact Me</h1>
                <form ref={form} onSubmit={sendEmail} className={styles.contactMeForm}>
                     <div className={styles.first_name}>

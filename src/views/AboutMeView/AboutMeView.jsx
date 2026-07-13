@@ -16,6 +16,7 @@ import WestVirginia from '../../assets/PhotoReel/WestVirginia.jpg'
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { Helmet } from "react-helmet-async";
 
 // Import modules
 import { Navigation, Pagination, Keyboard, Autoplay } from "swiper/modules";
@@ -23,6 +24,16 @@ import { Navigation, Pagination, Keyboard, Autoplay } from "swiper/modules";
 export default function AboutMeView() {
      return (
           <>
+          <Helmet>
+               <title>
+                    About Sarah Borgelt | Software Engineer & Data Engineer
+               </title>
+
+               <meta
+                    name="description"
+                    content="Get in touch with Sarah Borgelt regarding technology projects, data engineering, software development, and professional opportunities."
+               />
+               </Helmet>
                <div className={styles.slideshowAndDescription}>
                     <Swiper
                          modules={[Navigation, Pagination, Keyboard, Autoplay]}
