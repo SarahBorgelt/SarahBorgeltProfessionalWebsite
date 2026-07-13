@@ -30,6 +30,10 @@
      font-weight: bold;
      text-decoration: underline;
      cursor: pointer;
+     background-color: white;
+     color: navy;
+     border: 0.05rem solid white;
+     border-radius: 1rem;
 }
 
 .divider {
