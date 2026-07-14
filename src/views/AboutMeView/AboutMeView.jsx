@@ -73,7 +73,6 @@ export default function AboutMeView() {
                                              src={AirboatTour}
                                              alt="Exploring new environments and embracing unique experiences, including an airboat tour through the Florida Everglades."
                                              className={styles.slideImage}
-                                             loading="lazy"
                                         />
                                         <figcaption className={styles.figcaption}>
                                              Exploring new environments and embracing unique experiences, including an airboat tour through the Florida Everglades.
