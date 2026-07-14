@@ -1,42 +1,10 @@
 import styles from './HomeView.module.css';
 import ProfessionalHeadershot from '../../assets/ProfessionalHeadshot.png'
-import { Helmet } from "react-helmet-async";
 
 export default function HomeView() {
 
      return (
           <>
-          <Helmet>
-                    <title>
-                         Sarah Borgelt | Software Engineer and Data Engineer
-                    </title>
-                    <meta
-                         name="description"
-                         content="Sarah Borgelt is a Software Engineer who specializes in Java, JavaScript, SQL, and React."
-                    />
-                    <meta
-                         property="og:title"
-                         content="Sarah Borgelt | Data Engineer | Software Engineer"
-                    />
-
-                    <meta
-                         property="og:description"
-                         content="Connect with Sarah Borgelt to discuss projects, opportunities, or collaborations in software and data engineering."
-                    />
-
-
-                    <meta property="og:type" content="website" />
-
-                    <meta
-                         property="og:url"
-                         content="https://sarahborgelt.com/"
-                    />
-                    <meta property="og:image" content="https://sarahborgelt.com/ProfessionalHeadshot" />
-                    <link
-                         rel="canonical"
-                         href="https://sarahborgelt.com/"
-                    />
-          </Helmet>
           <div className={styles.aboutMe}>
                <img src={ProfessionalHeadershot} alt="Professional Header Shot" className={styles.profileImage} />
                <div className={styles.intro}>
