@@ -73,6 +73,7 @@ export default function AboutMeView() {
                                              src={AirboatTour}
                                              alt="Exploring new environments and embracing unique experiences, including an airboat tour through the Florida Everglades."
                                              className={styles.slideImage}
+                                             loading="lazy"
                                         />
                                         <figcaption className={styles.figcaption}>
                                              Exploring new environments and embracing unique experiences, including an airboat tour through the Florida Everglades.
@@ -85,6 +86,7 @@ export default function AboutMeView() {
                                              src={IceSkatingRockefeller}
                                              alt="A love for travel means always making time for iconic experiences — including ice skating at Rockefeller Center."
                                              className={styles.slideImage}
+                                             loading="lazy"
                                         />
                                         <figcaption className={styles.figcaption}>
                                              A love for travel means always making time for iconic experiences — including ice skating at Rockefeller Center.
@@ -97,6 +99,7 @@ export default function AboutMeView() {
                                              src={KayakingEverglades}
                                              alt="Spending time outdoors and connecting with nature is one of Sarah's favorite ways to recharge."
                                              className={styles.slideImage}
+                                             loading="lazy"
                                         />
                                         <figcaption className={styles.figcaption}>
                                              Spending time outdoors and connecting with nature is one of Sarah's favorite ways to recharge.
@@ -106,8 +109,10 @@ export default function AboutMeView() {
                               <SwiperSlide>
                                    <figure>
                                         <img src={LavenderFarm}
-                                        alt="Sarah Sarah enjoys discovering unique destinations and appreciating the small details that make each place special."
-                                        className={styles.slideImage}/>
+                                             alt="Sarah Sarah enjoys discovering unique destinations and appreciating the small details that make each place special."
+                                             className={styles.slideImage}
+                                             loading="lazy"
+                                        />
                                         <figcaption className={styles.figcaption}>
                                              Sarah enjoys discovering unique destinations and appreciating the small details that make each place special.
                                         </figcaption>
@@ -116,8 +121,10 @@ export default function AboutMeView() {
                               <SwiperSlide>
                                    <figure>
                                         <img src={RidingLipps}
-                                        alt="A lifelong equestrian, Sarah values the discipline, dedication, and connection developed through riding."
-                                        className={styles.slideImage}/>
+                                             alt="A lifelong equestrian, Sarah values the discipline, dedication, and connection developed through riding."
+                                             className={styles.slideImage}
+                                             loading="lazy"
+                                             />
                                         <figcaption className={styles.figcaption}>
                                              A lifelong equestrian, Sarah values the discipline, dedication, and connection developed through riding.
                                         </figcaption>
@@ -126,8 +133,10 @@ export default function AboutMeView() {
                               <SwiperSlide>
                                    <figure>
                                         <img src={SegwayTours}
-                                        alt="Sarah enjoys sharing experiences with friends and embracing opportunities to learn something new."
-                                        className={styles.slideImage}/>
+                                             alt="Sarah enjoys sharing experiences with friends and embracing opportunities to learn something new."
+                                             className={styles.slideImage}
+                                             loading="lazy"
+                                        />
                                         <figcaption className={styles.figcaption}>
                                              Sarah enjoys sharing experiences with friends and embracing opportunities to learn something new.
                                         </figcaption>
@@ -136,8 +145,10 @@ export default function AboutMeView() {
                               <SwiperSlide>
                                    <figure>
                                         <img src={SwimmingWithSeal}
-                                        alt="Sarah believes in making the most of every opportunity, including unforgettable experiences like swimming with a seal in Miami."
-                                        className={styles.slideImage}/>
+                                             alt="Sarah believes in making the most of every opportunity, including unforgettable experiences like swimming with a seal in Miami."
+                                             className={styles.slideImage}
+                                             loading="lazy"
+                                        />
                                         <figcaption className={styles.figcaption}>
                                              Sarah believes in making the most of every opportunity, including unforgettable experiences like swimming with a seal in Miami.
                                         </figcaption>
@@ -146,8 +157,10 @@ export default function AboutMeView() {
                               <SwiperSlide>
                                    <figure>
                                         <img src={TexasAandM}
-                                        alt="A proud 2023 Texas A&M University graduate, Sarah values lifelong learning and continued growth."
-                                        className={styles.slideImage}/>
+                                             alt="A proud 2023 Texas A&M University graduate, Sarah values lifelong learning and continued growth."
+                                             className={styles.slideImage}
+                                             loading="lazy"
+                                        />
                                         <figcaption className={styles.figcaption}>
                                              A proud 2023 Texas A&M University graduate, Sarah values lifelong learning and continued growth.
                                         </figcaption>
@@ -156,8 +169,9 @@ export default function AboutMeView() {
                               <SwiperSlide>
                                    <figure>
                                         <img src={WestVirginia}
-                                        alt="Traveling allows Sarah to experience new communities, appreciate different perspectives, and continue learning beyond the workplace."
-                                        className={styles.slideImage}
+                                             alt="Traveling allows Sarah to experience new communities, appreciate different perspectives, and continue learning beyond the workplace."
+                                             className={styles.slideImage}
+                                             loading="lazy"
                                         />
                                         <figcaption className={styles.figcaption}>
                                              Traveling allows Sarah to experience new communities, appreciate different perspectives, and continue learning beyond the workplace.
