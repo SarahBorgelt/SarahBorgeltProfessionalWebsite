@@ -1,7 +1,7 @@
 //Mom's memorial fund, other charitable giving, and volunteer work.  
 // This page will be updated as I continue to do more philanthropic work.  
 import styles from './PhilanthropyView.module.css';
-import Penne from '../../assets/Penne.jpg';
+import Penne from '../../assets/Penne.webp';
 import { Helmet } from "react-helmet-async";
 
 export default function PhilanthropyView() {

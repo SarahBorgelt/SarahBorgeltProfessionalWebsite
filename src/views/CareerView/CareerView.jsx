@@ -1,5 +1,5 @@
 import styles from './CareerView.module.css';
-import ProfessionalHeadshot2 from '../../assets/ProfessionalHeadshot2.jpg'
+import ProfessionalHeadshot2 from '../../assets/ProfessionalHeadshot2.webp'
 import { Helmet } from "react-helmet-async";
 
 export default function CareerView() {

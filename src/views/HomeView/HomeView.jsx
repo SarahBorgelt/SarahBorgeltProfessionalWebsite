@@ -1,5 +1,5 @@
 import styles from './HomeView.module.css';
-import ProfessionalHeadershot from '../../assets/ProfessionalHeadshot.png'
+import ProfessionalHeadershot from '../../assets/ProfessionalHeadshot.webp'
 
 export default function HomeView() {
 

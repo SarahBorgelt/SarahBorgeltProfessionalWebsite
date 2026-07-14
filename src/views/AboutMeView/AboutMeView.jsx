@@ -2,15 +2,15 @@ import styles from './AboutMeView.module.css';
 import { Swiper, SwiperSlide } from "swiper/react";
 
 //Photo import
-import AirboatTour from '../../assets/PhotoReel/AirboatTour.jpg'
-import IceSkatingRockefeller from '../../assets/PhotoReel/IceSkatingRockefeller.jpg'
-import KayakingEverglades from '../../assets/PhotoReel/KayakingEverglades.jpg'
-import LavenderFarm from '../../assets/PhotoReel/LavenderFarm.jpg'
-import RidingLipps from '../../assets/PhotoReel/RidingLipps.jpg'
-import SegwayTours from '../../assets/PhotoReel/SegwayTours.jpg'
-import SwimmingWithSeal from '../../assets/PhotoReel/SwimmingWithSeal.jpg'
-import TexasAandM from '../../assets/PhotoReel/TexasAandM.jpg'
-import WestVirginia from '../../assets/PhotoReel/WestVirginia.jpg'
+import AirboatTour from '../../assets/PhotoReel/AirboatTour.webp'
+import IceSkatingRockefeller from '../../assets/PhotoReel/IceSkatingRockefeller.webp'
+import KayakingEverglades from '../../assets/PhotoReel/KayakingEverglades.webp'
+import LavenderFarm from '../../assets/PhotoReel/LavenderFarm.webp'
+import RidingLipps from '../../assets/PhotoReel/RidingLipps.webp'
+import SegwayTours from '../../assets/PhotoReel/SegwayTours.webp'
+import SwimmingWithSeal from '../../assets/PhotoReel/SwimmingWithSeal.webp'
+import TexasAandM from '../../assets/PhotoReel/TexasAandM.webp'
+import WestVirginia from '../../assets/PhotoReel/WestVirginia.webp'
 
 // Import Swiper styles
 import "swiper/css";
