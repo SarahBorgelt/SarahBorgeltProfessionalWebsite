@@ -43,7 +43,6 @@ export default function PhilanthropyView() {
 
                     </figcaption>
                </figure>
-               <br></br>
                <div className={styles.text}>
                     <h1 className={styles.title}>Philanthropy</h1>
                     <div className={styles.philanthropyDescription}>
@@ -53,7 +52,6 @@ export default function PhilanthropyView() {
                               organizations that strengthen local communities, expand educational opportunities, promote 
                               equality, and improve the lives of both people and animals.
                          </p>
-                         <br></br>
                          <p>
                               When her mother, <a href="https://penwellfuneralhome.com/obituaries/rhonda-k-steele-borgelt/" target="_blank" rel="noopener noreferrer">Rhonda K. Borgelt</a>
                               , passed away unexpectedly in January of 2025, Sarah wanted to find a way to honor her mother. Using her 
@@ -61,7 +59,6 @@ export default function PhilanthropyView() {
                               the proceeds, she donates half to various non-profits in the area in honor of her late mother and invests the other half
                               to ensure the memorial fund's continuity long-term. 
                          </p>
-                         <br></br>
                          <p>
                               To date, the following non-profits have benefited from these annual donations:
                          </p>
@@ -69,7 +66,6 @@ export default function PhilanthropyView() {
                               <li><a href='https://marvinlibrary.org/' target='_blank' rel="noopener noreferrer">Marvin Memorial Library (2025)</a></li>
                               <li><a href='https://shelbyk12.org/' target='_blank' rel="noopener noreferrer">Shelby City Schools (2026)</a></li>
                          </ul>
-                         <br></br>
                          <p>
                               In addition to the memorial fund, Sarah actively supports organizations whose missions align with her 
                               personal values. Her charitable giving focuses on a variety of causes, including education, youth leadership, community development, 
@@ -88,19 +84,16 @@ export default function PhilanthropyView() {
                               <li><a href='https://equusfoundation.org/riderscloset/riderscloset.php' target='_blank' rel="noopener noreferrer">The Rider's Closet</a></li>
                               <li><a href='http://findlay.edu/' target='_blank' rel="noopener noreferrer">The University of Findlay</a></li>
                          </ul>
-                         <br></br>
                          <p> 
                               In addition to charitable giving, Sarah Borgelt volunteers annually with <a href="https://clevelandgivecamp.org/" target="_blank" rel="noopener noreferrer">Cleveland GiveCamp</a>, 
                               a nonprofit organization that brings together technology professionals to develop websites and software solutions for local nonprofit 
                               organizations at no cost. 
                          </p>
-                         <br></br>
                          <p>
                               Through this work, she uses her technical skills to help community organizations expand their impact 
                               and better serve those who rely on them. 
                          </p>
                     </div>
-                    <br></br>
                </div>
           </div>
           </>

@@ -16,8 +16,8 @@ export default function NotFound() {
                <h1>404 - Page Not Found</h1>
                <br></br>
                <p>Sorry, we couldn't find that page.</p>
-               <Link to="/" className={styles.buttonName}>
-                    <button className={styles.button}>Return Home</button>
+               <Link to="/" className={styles.button}>
+                    Return Home
                </Link>
                </div>
      </>

@@ -1,17 +1,78 @@
 .NotFoundPage {
+     min-height: 60vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
      text-align: center;
+     padding: 2rem;
+     box-sizing: border-box;
 }
 
+
+.NotFoundPage h1 {
+     color: white;
+     font-size: clamp(2rem, 6vw, 4rem);
+     margin-bottom: 1rem;
+     text-transform: uppercase;
+     letter-spacing: 0.05rem;
+}
+
+
+.NotFoundPage p {
+     color: white;
+     font-size: clamp(1rem, 3vw, 1.25rem);
+     margin-bottom: 2rem;
+}
+
+
 .button {
+     display: inline-block;
      background-color: navy;
      color: white;
-     padding: 1rem;
-     margin: 1rem;
+     padding: 1rem 2rem;
+     border-radius: 12px;
      text-decoration: none;
+     font-weight: bold;
+     transition: all 0.25s ease;
+     border: 1px solid white;
 }
+
 
 .button:hover {
      color: navy;
-     font-weight: bold;
      background-color: white;
+     transform: translateY(-3px);
+}
+
+
+.button:active {
+     transform: translateY(0);
+}
+
+/*Making mobile friendly*/
+@media (max-width: 768px) {
+
+     .NotFoundPage {
+          min-height: 70vh;
+          padding: 1.5rem;
+     }
+
+
+     .NotFoundPage h1 {
+          font-size: 2rem;
+     }
+
+
+     .NotFoundPage p {
+          font-size: 1rem;
+     }
+
+
+     .button {
+          width: 80%;
+          max-width: 250px;
+          padding: 0.9rem;
+     }
+
 }

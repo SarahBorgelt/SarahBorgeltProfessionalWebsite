@@ -1,7 +1,8 @@
-
 .penneImage {
+     width: 100%;
+     height: auto;
      border-radius: 1rem;
-     align-self: left;
+     object-fit: cover;
 }
 
 .caption {
@@ -15,15 +16,22 @@
 }
 
 .figure {
-     display:flex;
+     display: flex;
      flex-direction: column;
-     width: 25rem;
-     height: auto;
+     width: min(100%, 25rem);
+     flex-shrink: 0;
 }
 
 .philanthropy {
      display: flex;
      flex-direction: row;
+     justify-content: center;
+     align-items: flex-start;
+     gap: clamp(2rem, 5vw, 4rem);
+     max-width: 90rem;
+     margin: 0 auto;
+     padding: 2rem;
+     box-sizing: border-box;
 }
 
 .title {
@@ -38,18 +46,17 @@
 }
 
 .text {
-     padding-left: 2rem;
+     flex: 1;
 }
 
 .philanthropyDescription {
      font-size: 1.15rem;
      background-color: navy;
-     border: 0.0625rem solid #4f79bb;
+     border: 0.0625rem solid white;
      border-radius: 1rem;
      padding: 1.5rem;
      color: white;
      max-width: 700px;
-     border: 0.0625rem solid white;
      line-height: 1.6;
 }
 
@@ -66,4 +73,84 @@
 
 .nonprofitlist {
      margin: 1rem 2rem;
+}
+
+.philanthropyDescription p {
+     margin-bottom: 1.25rem;
+}
+
+.philanthropyDescription ul {
+     margin-bottom: 1.25rem;
+}
+
+/*Adding mobile-friendliness*/
+@media (max-width: 768px) {
+
+     .philanthropy {
+          flex-direction: column;
+          align-items: center;
+          padding: 1rem;
+          gap: 2rem;
+     }
+
+
+     .figure {
+          width: 100%;
+          max-width: 22rem;
+     }
+
+
+     .caption {
+          font-size: 0.95rem;
+          padding: 0.75rem;
+          line-height: 1.5;
+     }
+
+
+     .text {
+          width: 100%;
+          padding-left: 0;
+     }
+
+
+     .title {
+          font-size: 2rem;
+          text-align: center;
+          padding-bottom: 0.75rem;
+     }
+
+
+     .philanthropyDescription {
+          font-size: 1rem;
+          padding: 1rem;
+          line-height: 1.5;
+          max-width: 100%;
+     }
+
+
+     .nonprofitlist {
+          margin: 1rem;
+          padding-left: 1rem;
+     }
+
+
+}
+
+/*Small Phone Screens*/
+@media (max-width: 400px) {
+
+     .figure {
+          max-width: 18rem;
+     }
+
+
+     .title {
+          font-size: 1.75rem;
+     }
+
+
+     .philanthropyDescription {
+          font-size: 0.95rem;
+     }
+
 }
