@@ -6,6 +6,11 @@
      padding: 0;
 }
 
+/* Force a light color scheme */
+:root{
+     color-scheme: light;
+}
+
 body {
      font-family: "Inter", Arial, sans-serif;
      font-size: 14px;
