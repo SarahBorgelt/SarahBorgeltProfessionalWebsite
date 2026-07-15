@@ -56,7 +56,7 @@ export default function PhilanthropyView() {
                               When her mother, <a href="https://penwellfuneralhome.com/obituaries/rhonda-k-steele-borgelt/" target="_blank" rel="noopener noreferrer">Rhonda K. Borgelt</a>
                               , passed away unexpectedly in January of 2025, Sarah wanted to find a way to honor her mother. Using her 
                               education in Finance, she invested the proceeds of her mother's life insurance money into a certificate of deposit. With
-                              the proceeds, she donates half to various non-profits in the area in honor of her late mother and invests the other half
+                              the proceeds, she donates half to various non-profits in the area in honor of her late mother and re-invests the other half
                               to ensure the memorial fund's continuity long-term. 
                          </p>
                          <p>
